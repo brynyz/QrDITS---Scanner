@@ -78,4 +78,7 @@ dependencies {
     //zxing implementation for barcode related functionalities
     implementation(libs.zxing.android.embedded)
     implementation(libs.core)
+
+    //okHttp implementation for sending data through local network
+    implementation(libs.okhttp)
 }
